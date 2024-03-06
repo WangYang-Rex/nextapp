@@ -1,0 +1,14 @@
+.t-FBH {
+  display: flex;
+  flex-direction: row;
+}
+.t-FBV {
+  display: flex;
+  flex-direction: column;
+}
+.w_16 {
+  width: 16px;
+}
+.text-blue-600 {
+  color: blue;
+}

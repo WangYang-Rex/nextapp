@@ -1,4 +1,5 @@
 'use client';
+
 import {
   UserGroupIcon,
   HomeIcon,
@@ -23,10 +24,6 @@ const links = [
 export default function NavLinks() {
   const pathname = usePathname();
 
-  // const links: Array<{name: string, href: string, icon: any}> = [
-  //   { name: 'customer', href: '/dashboard/customers', icon: '' },
-  //   { name: 'invoices', href: '/dashboard/invoices', icon: '' },
-  // ]
   return (
     <>
       {links.map((link) => {
@@ -42,7 +39,7 @@ export default function NavLinks() {
               },
             )}
           >
-            <LinkIcon className="w-6" />
+            <LinkIcon className="w-6 w_16" />
             <p className="hidden md:block">{link.name}</p>
           </Link>
         );
