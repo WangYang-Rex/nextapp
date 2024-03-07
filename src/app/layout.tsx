@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import "@/ui/common.css"
+import "@/app/ui/common.css"
 // import 'tailwindcss/tailwind.css'
-import { inter } from '@/ui/fonts';
+import { inter } from '@/app/ui/fonts';
 
 export const metadata: Metadata = {
   title: {
